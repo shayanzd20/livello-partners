@@ -19,47 +19,61 @@
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                <img src="./1.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                <img src="./2.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                <img src="./3.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                <img src="./4.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                <img src="./5.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                <img src="./6.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                <img src="./7.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                <img src="./8.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                <img src="./9.svg" height="200" width="250" alt="" />
+            </div>
+
+            <div class="slide">
+                <img src="./1.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                <img src="./2.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                <img src="./3.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                <img src="./4.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                <img src="./5.svg" height="200" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                <img src="./6.svg" height="200" width="250" alt="" />
             </div>
+            <div class="slide">
+                <img src="./7.svg" height="200" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./8.svg" height="200" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./9.svg" height="200" width="250" alt="" />
+            </div>
+
         </div>
     </div>
 
@@ -74,12 +88,13 @@ body {
 
 .slider {
     background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
     height: 100px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
 }
 
 .slider::before,
@@ -112,6 +127,9 @@ body {
 .slider .slide {
     height: 100px;
     width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes scroll {
